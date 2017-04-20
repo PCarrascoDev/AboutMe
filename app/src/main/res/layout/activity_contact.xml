@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pedro.aboutme.ContactActivity">
+
+    <TextView
+
+        android:drawableLeft="@mipmap/ic_linkedin_black_24dp"
+        android:id="@+id/linkedin"
+        android:text="LINKEDIN"
+        style="@style/ClickableTextView"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        />
+    <TextView
+        android:id="@+id/phone"
+        style="@style/ClickableTextView"
+        android:text="+56951087288"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:drawableLeft="@mipmap/ic_call_black_24dp"/>
+
+    <fragment
+        android:id="@+id/emailFragment"
+        android:name="com.example.pedro.aboutme.EmailFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

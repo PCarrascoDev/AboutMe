@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pedro.aboutme.EmailFragment">
+
+    <Button
+        android:id="@+id/contactBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ESCRIBIRME"
+        android:textColor="@android:color/white"
+        android:theme="@style/AccentButton" />
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/msgEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mensaje" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/sendBtn"
+        android:drawableRight="@android:drawable/ic_menu_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENVIAR"
+        android:textColor="@android:color/white"
+        android:theme="@style/AccentButton" />
+
+
+</LinearLayout>
